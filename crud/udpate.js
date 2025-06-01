@@ -63,7 +63,7 @@
 
 //? Update the text value within an comments array = "Awesome article!", where the id=7 & username=alice.
 
-// Consider this part of the query: 'comments.$.text': 'Awesome Thapa!'
+// Consider this part of the query: 'comments.$.text': 'Awesome Parth!'
 
 // comments is the name of the array field.
 // $ is the positional operator, and it refers to the index of the array element that matches the query condition.

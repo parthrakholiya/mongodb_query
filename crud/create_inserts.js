@@ -43,9 +43,9 @@
 
 //? 3: Case Sensitivity in MongoDB
 //In MongoDB, collection names are case-sensitive. Therefore, db.Product and db.product are considered as two different collections. The same rule applies to field names within documents.
-// db.Product.insertOne({name:"thapa",age:30})
+// db.Product.insertOne({name:"parth",age:30})
 // vs
-// db.product.insertOne({name:"thapa",age:30})
+// db.product.insertOne({name:"parth",age:30})
 // the output will be two collections 🤯
 // dbproduct> show collections
 // product

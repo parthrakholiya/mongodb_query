@@ -172,7 +172,7 @@ db.products.aggregate([
 db.col.aggregate([{
     $project:{
         name:1,
-        thapaValue: {
+        Value: {
             $filter:{
                 input: '$values',
                 as: 'val',
